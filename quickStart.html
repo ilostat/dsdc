@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DSD Constructor - Examples</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DSD Constructor - Examples</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	
+
 	<style>
 		.center {
 			display: block;
@@ -20,132 +20,155 @@
 			margin-top: 2em;
 			margin-bottom: 2em;
 			width: 80%;
-		  }
+		}
 	</style>
 
-  </head>
-  <body>
+</head>
+
+<body>
 
 	<nav class="navbar navbar-shinybs navbar-fixed-top bs-bg-color bs-bg-pattern" role="navigation">
-	  <div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#shinybs-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="index.html"><img style="float:left; vertical-align:middle; height:1em; padding-right: 5px; margin-top: -3.5px;" src="images/new.ico" alt="">DSD CONSTRUCTOR</a>
-		</div>
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#shinybs-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img
+						style="float:left; vertical-align:middle; height:1em; padding-right: 5px; margin-top: -3.5px;"
+						src="images/new.ico" alt="">DSD CONSTRUCTOR</a>
+			</div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="shinybs-collapse">
-		  <ul class="nav navbar-nav">
-				<li><a href = "install.html">Install</a></li>
-				<li class = "active"><a href = "quickStart.html">Quick Start</a></li>
-				<li><a href = "videoGuides.html">Video Guides</a></li>
-				<li><a href = "changes.html">Changes</a></li>
-				<li><a href = "help.html">Help</a></li>
-		  </ul>
-		</div><!-- /.navbar-collapse -->
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="shinybs-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="install.html">Install</a></li>
+					<li class="active"><a href="quickStart.html">Quick Start</a></li>
+					<li><a href="videoGuides.html">Video Guides</a></li>
+					<li><a href="changes.html">Changes</a></li>
+					<li><a href="help.html">Help</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
 
-			
-	  </div><!-- /.container-fluid -->
+
+		</div><!-- /.container-fluid -->
 	</nav>
 
-	<div class = "container">
-		<div class = "row">
-		
-			<!-- Sidebar navigation -->
-		
-				<nav class = "col-xs-2 sbs-sidebar">
-			</nav> 
-			
-			<!-- Main Content -->
-			
-			<div class = "col-xs-10">
-				<h1 class = "page-header bs-color"><i class="fa fa-bolt fa-2x"></i> Quick Start </h1>
-				<section id = "components" class = "group">
-					
-					<p>Once the DSD Constructor is successfully installed, you are all set and ready to work. The following provides a quick overview of the main working area. </p>
-					<p>The DSD Constructor initial screen appears as follows, with three well-defined areas that we will call Zone 1, Zone 2 and Zone 3: </p>	
-					
-					<a href="#" class="pop">
-											<img class="center" src="images/Figure_4.png" alt="The main window" >
-											</a>
-											
-						<ul>
-							<li><strong style="color: #FA3C4B;">Zone 1</strong>
-							<ul>Is the “Concept area”: this is the concepts’ “store” which contains the concepts available to compose the DSD. Concepts can be loaded online from a SDMX registry or added manually.</ul></li>
-							<br>
-							<li><strong style="color: #FA3C4B;">Zone 2</strong>
-							<ul>Includes two areas to allocate each concept in its assigned role for the DSD, either “Dimension” or “Attribute”. When the user places a concept in one of these areas (by dragging and dropping it from the “Concept” zone) it is assigned the role. “Time dimension” and “Primary measure” concepts are already created and their ids default to TIME_PERIOD and OBS_VALUE, respectively.</ul></li>
-							<br>
-							<li><strong style="color: #FA3C4B;">Zone 3</strong>
-							<ul>Contains the identification and location information for the artefacts. This information can be completed during the “Generate” (save) step afterwards.</ul></li>
-							<br>
-								
+	<div class="container">
+		<div class="row">
 
-						
+			<!-- Sidebar navigation -->
+
+			<nav class="col-xs-2 sbs-sidebar">
+			</nav>
+
+			<!-- Main Content -->
+
+			<div class="col-xs-10">
+				<h1 class="page-header bs-color"><i class="fa fa-bolt fa-2x"></i> Quick Start </h1>
+				<section id="components" class="group">
+
+					<p>Once the DSD Constructor is successfully installed, you are all set and ready to work. The
+						following provides a quick overview of the main working area. </p>
+					<p>The DSD Constructor initial screen appears as follows, with three well-defined areas that we will
+						call Zone 1, Zone 2 and Zone 3: </p>
+
+					<a href="#" class="pop">
+						<img class="center" src="images/Figure_4.png" alt="The main window">
+					</a>
+
+					<ul>
+						<li><strong style="color: #FA3C4B;">Zone 1</strong>
+							<ul>Is the “Concept area”: this is the concepts’ “store” which contains the concepts
+								available to compose the DSD. Concepts can be loaded online from a SDMX registry or
+								added manually.</ul>
+						</li>
+						<br>
+						<li><strong style="color: #FA3C4B;">Zone 2</strong>
+							<ul>Includes two areas to allocate each concept in its assigned role for the DSD, either
+								“Dimension” or “Attribute”. When the user places a concept in one of these areas (by
+								dragging and dropping it from the “Concept” zone) it is assigned the role. “Time
+								dimension” and “Primary measure” concepts are already created and their ids default to
+								TIME_PERIOD and OBS_VALUE, respectively.</ul>
+						</li>
+						<br>
+						<li><strong style="color: #FA3C4B;">Zone 3</strong>
+							<ul>Contains the identification and location information for the artefacts. This information
+								can be completed during the “Generate” (save) step afterwards.</ul>
+						</li>
+						<br>
+
+
+
 				</section>
 
-				<p>The last line is the “Message area” (highlighted by the blue arrow) and provides contextual messages to the user.</p>
+				<p>The last line is the “Message area” (highlighted by the blue arrow) and provides contextual messages
+					to the user.</p>
 
 				<p>There are three ways to start working with the DSD Constructor:</p>
-					<ol>
-						<li>Concepts can be gathered from (a) registry(ies) by using the “Load” button.</li>
-						<li>A concept can be added manually.</li>
-						<li>Open and Edit an existing DSD file with the “Edit DSD” button.</li>
-					</ol>
-				
-				<p>For further step-by-step instructions on how to use the DSD Constructor, please refer to the detailed <a href="docs/DSD_Constructor_End_user_Guideline.pdf" target="_blank"> <strong>USER GUIDE</strong></a>.</p>	
+				<ol>
+					<li>Concepts can be gathered from (a) registry(ies) by using the “Load” button.</li>
+					<li>A concept can be added manually.</li>
+					<li>Open and Edit an existing DSD file with the “Edit DSD” button.</li>
+				</ol>
 
-									
-				
+				<p>For further step-by-step instructions on how to use the DSD Constructor, please refer to the detailed
+					<a href="docs/DSD_Constructor_End_user_Guideline.pdf" target="_blank"> <strong>USER
+							GUIDE</strong></a>.</p>
+
+
+
 			</div>
-			
-		</div>	
-		
+
+		</div>
+
 	</div>
-	
-			<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" style="width:95%;height:95%">
-    <div class="modal-content" >              
-      <div class="modal-body">
-      	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <img src="" class="imagepreview" style="width: 100%;" >
-      </div>
-    </div>
-  </div>
-</div>
+
+	<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" style="width:95%;height:95%">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal"><span
+							aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<img src="" class="imagepreview" style="width: 100%;">
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<footer>
 		<p>
 			This project is developed and maintained by <a href="https://www.ilo.org/ilostat">ILOSTAT</a>
 		</p>
 		<p>
-				© 1996-<script>document.write(new Date().getFullYear())</script> International Labour Organization (ILO) | <a href="http://www.ilo.org/global/copyright/lang--en/index.htm"> Copyright and permissions</a>
+			© 1996-
+			<script>document.write(new Date().getFullYear())</script> International Labour Organization (ILO) | <a
+				href="http://www.ilo.org/global/copyright/lang--en/index.htm"> Copyright and permissions</a>
 		</p>
 	</footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
 	<script>
 		$('body').scrollspy({
 			target: '.sbs-sidebar',
 			offset: 120
 		});
-				$(function() {
-		$('.pop').on('click', function() {
-			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('#imagemodal').modal('show');   
-		});		
-        });
+		$(function () {
+			$('.pop').on('click', function () {
+				$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+				$('#imagemodal').modal('show');
+			});
+		});
 	</script>
-	
-  </body>
+
+</body>
+
 </html>
