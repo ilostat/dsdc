@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DSD Constructor</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DSD Constructor</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Overpass|Noto+Sans" rel="stylesheet" type="text/css">
-	
+
 	<style>
-		
-		body{padding-top: 0px;}
-		
+		body {
+			padding-top: 0px;
+		}
+
 		.header {
 			padding-top: 0px;
 			color: white;
@@ -22,18 +24,18 @@
 			padding: 30px 10px 0 10px;
 			height: auto;
 			margin-bottom: 30px;
-			<!--background-image: repeating-linear-gradient(315deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
-		-->
+			< !--background-image: repeating-linear-gradient(315deg, transparent, transparent 35px, rgba(255, 255, 255, .1) 35px, rgba(255, 255, 255, .1) 70px);
+			-->
 		}
 
 		.header h1 {
 			font-size: 100px;
 		}
-		 
+
 		.header h5.first {
 			font-weight: bold;
 		}
-		
+
 		.bs-nav {
 			padding: 5px;
 			margin-left: -10px;
@@ -48,9 +50,9 @@
 		}
 
 		.bs-nav ul li {
-		  display: inline-block;
-		  padding: 1px 12px;
-		  margin: 0;
+			display: inline-block;
+			padding: 1px 12px;
+			margin: 0;
 		}
 
 		.bs-nav a {
@@ -66,118 +68,139 @@
 			color: #DDDDDD;
 		}
 
-		.bs-nav li.active a{
+		.bs-nav li.active a {
 			color: grey !important;
 		}
 
 		.marketing {
-		  padding-right: 15px;
-		  padding-left: 15px;
+			padding-right: 15px;
+			padding-left: 15px;
 		}
 
 		.marketing .col-lg-4 {
-		  margin-bottom: 20px;
-		  text-align: center;
+			margin-bottom: 20px;
+			text-align: center;
 		}
+
 		.marketing h2 {
-		  font-weight: normal;
+			font-weight: normal;
 		}
+
 		.marketing .col-lg-4 p {
-		  margin-right: 10px;
-		  margin-left: 10px;
-		}	
-		
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+
 		.featurette-divider {
-			margin: 80px 0; 
+			margin: 80px 0;
 		}
 
 		.featurette-heading {
-		  font-weight: 300;
-		  line-height: 1;
-		  letter-spacing: -1px;
+			font-weight: 300;
+			line-height: 1;
+			letter-spacing: -1px;
 		}
-		
-	</style>	
-	
-  </head>
-  <body>
-	<div class = "header bs-bg-color bs-bg-pattern">
-		
-		<a href="https://www.ilo.org/ilostat"><img style="float: left; vertical-align:middle; height:5rem; padding-right: -10px; margin-right: -10px;" src="images/logo_ilostat-en-small.svg" alt=""></a>
+	</style>
 
-		<h1 style="font-size: 7rem; margin-top: 2rem; margin-bottom: 1rem; padding-left: 0.01em; margin-left: 0.01em; padding-right: 23rem; color: white; font-weight : normal; letter-spacing: -0.05em; Line-Height : 0.5em;"><img style="float:center; vertical-align:middle; height:1em; padding-right: 0; margin-right: 0;" src="images/new.ico" alt="">DSD Constructor</h1>
-		<h4 class = "first" style="color: white; font-weight : normal; margin-bottom: 3.5rem; letter-spacing: 0.30rem;">(building SDMX structures made simple)</h4>
+</head>
+
+<body>
+	<div class="header bs-bg-color bs-bg-pattern">
+
+		<a href="https://www.ilo.org/ilostat"><img
+				style="float: left; vertical-align:middle; height:5rem; padding-right: -10px; margin-right: -10px;"
+				src="images/logo_ilostat-en-small.svg" alt=""></a>
+
+		<h1
+			style="font-size: 7rem; margin-top: 2rem; margin-bottom: 1rem; padding-left: 0.01em; margin-left: 0.01em; padding-right: 23rem; color: white; font-weight : normal; letter-spacing: -0.05em; Line-Height : 0.5em;">
+			<img style="float:center; vertical-align:middle; height:1em; padding-right: 0; margin-right: 0;"
+				src="images/new.ico" alt="">DSD Constructor</h1>
+		<h4 class="first" style="color: white; font-weight : normal; margin-bottom: 3.5rem; letter-spacing: 0.30rem;">
+			(building SDMX structures made simple)</h4>
 
 
-		<div class = "nav bs-nav">
+		<div class="nav bs-nav">
 			<ul class="list-unstyled">
-				<li><a href = "install.html">Install</a></li>
-				<li><a href = "quickStart.html">Quick Start</a></li>
-				<li><a href = "videoGuides.html">Video Guides</a></li>
-				<li><a href = "changes.html">Changes</a></li>
-				<li><a href = "help.html">Help</a></li>
+				<li><a href="install.html">Install</a></li>
+				<li><a href="quickStart.html">Quick Start</a></li>
+				<li><a href="videoGuides.html">Video Guides</a></li>
+				<li><a href="changes.html">Changes</a></li>
+				<li><a href="help.html">Help</a></li>
 			</ul>
 		</div>
 	</div>
 
-<!--	<a href="install.html"><img style="position: absolute; top: 0; right: 0; border: 0;" height = "28%" src="pics/beta.png" alt="Beta Testing" ></a>
+	<!--	<a href="install.html"><img style="position: absolute; top: 0; right: 0; border: 0;" height = "28%" src="pics/beta.png" alt="Beta Testing" ></a>
 -->
-    <div class="container marketing">
+	<div class="container marketing">
 
 		<div class="row margin-bottom-40">
-		<div class="col-md-12">
-		<div class="editContent">
-		<h2 class = "bs-color">What is the DSD Constructor? </h2>
+			<div class="col-md-12">
+				<div class="editContent">
+					<h2 class="bs-color">What is the DSD Constructor? </h2>
 
-		<p style="margin-bottom:70px;">The “Constructor” is a very simple, standalone tool, which is able to create and edit DSDs and their related artefacts (i.e. concept schemes and code lists) in order to generate a DSD which fits your needs and can be used, for example, by SMART to obtain the output dataset as required.
-			<br>
-		<br>
-		It can grab concepts and associated code lists from any SDMX registry, from a file or creating them from scratch. It is also possible to edit an existing DSD and save it with a different id after making some changes.
-		</p>
+					<p style="margin-bottom:70px;">The “Constructor” is a very simple, standalone tool, which is able to
+						create and edit DSDs and their related artefacts (i.e. concept schemes and code lists) in order
+						to generate a DSD which fits your needs and can be used, for example, by SMART to obtain the
+						output dataset as required.
+						<br>
+						<br>
+						It can grab concepts and associated code lists from any SDMX registry, from a file or creating
+						them from scratch. It is also possible to edit an existing DSD and save it with a different id
+						after making some changes.
+					</p>
 
-			
 
+
+				</div>
+				<!-- /.editContent -->
+			</div>
 		</div>
-		<!-- /.editContent -->
-		</div>
-		</div>
-		
-	
-	
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-         <a href="http://www.ilo.org/ilostat/tools/registerForm/Default.aspx?appId=dsdConstructor"> <i class="fa fa-download fa-5x bs-color"></i>
-		 <h2 class = "bs-color">Install</h2></a>
-          <p>You can download and install the latest version of the tool or <a href="install.html">learn more</a>.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-		  <a href="quickStart.html"><i class="fa fa-bolt fa-5x bs-color"></i>
-          <h2 class = "bs-color">Quick Start</h2></a>
-          <p>This will guide you through the basics so that you can quickly start using the DSD Contructor.</p>
-          </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-		  <a href="changes.html"><i class="fa fa-laptop fa-5x bs-color"></i>
-          <h2 class = "bs-color">Change Log</h2></a>
-          <p>New features and bug fixing are updated in Change Log for successive new releases.</p>
-  </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-	<footer>
-		<p>
-			This project is developed and maintained by <a href="https://ilostat.ilo.org/">ILOSTAT</a>
-		</p>
-		<p>
-				© 1996-<script>document.write(new Date().getFullYear())</script> International Labour Organization (ILO) | <a href="http://www.ilo.org/global/copyright/lang--en/index.htm"> Copyright and permissions</a>
-		</p>
-	</footer>
 
 
 
+		<!-- Three columns of text below the carousel -->
+		<div class="row">
+			<div class="col-lg-4">
+				<a href="http://www.ilo.org/ilostat/tools/registerForm/Default.aspx?appId=dsdConstructor"> <i
+						class="fa fa-download fa-5x bs-color"></i>
+					<h2 class="bs-color">Install</h2>
+				</a>
+				<p>You can download and install the latest version of the tool or <a href="install.html">learn more</a>.
+				</p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<a href="quickStart.html"><i class="fa fa-bolt fa-5x bs-color"></i>
+					<h2 class="bs-color">Quick Start</h2>
+				</a>
+				<p>This will guide you through the basics so that you can quickly start using the DSD Contructor.</p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<a href="changes.html"><i class="fa fa-laptop fa-5x bs-color"></i>
+					<h2 class="bs-color">Change Log</h2>
+				</a>
+				<p>New features and bug fixing are updated in Change Log for successive new releases.</p>
+			</div><!-- /.col-lg-4 -->
+		</div><!-- /.row -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+		<footer>
+			<p>
+				This project is developed and maintained by <a href="https://ilostat.ilo.org/">ILOSTAT</a>
+			</p>
+			<p>
+				© 1996-
+				<script>document.write(new Date().getFullYear())</script> International Labour Organization (ILO) | <a
+					href="http://www.ilo.org/global/copyright/lang--en/index.htm"> Copyright and permissions</a>
+			</p>
+		</footer>
+
+
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
